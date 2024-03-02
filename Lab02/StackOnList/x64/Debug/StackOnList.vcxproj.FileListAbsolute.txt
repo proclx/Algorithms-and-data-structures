@@ -1,2 +1,0 @@
-C:\Users\користувач36\Desktop\C++\StackOnList\x64\Debug\StackOnList.exe
-C:\Users\користувач36\Desktop\C++\Lab02\StackOnList\x64\Debug\StackOnList.exe
