@@ -58,7 +58,7 @@ void Table::FindFirstEmpty()
 		if (tableKeyList[i].IsEmpty())
 		{
 			firstEmpty = i;
-			break;
+			return;
 		}
 	}
 	firstEmpty = tableSize;
