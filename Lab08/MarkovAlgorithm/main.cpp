@@ -30,9 +30,13 @@ void BinaryToUnary(std::string& binary)
 
 int main()
 {
-	std::string unaryExpression{ "||*|||" };
+	/*std::string unaryExpression{ "||*||" };
 	UnaryMultiplication(unaryExpression);
-	std::cout << unaryExpression << std::endl;
+	std::cout << unaryExpression << std::endl;*/
+
+	std::string binaryDigit{ "110" };
+	BinaryToUnary(binaryDigit);
+	std::cout << binaryDigit << std::endl;
 
 	return 0;
 }
