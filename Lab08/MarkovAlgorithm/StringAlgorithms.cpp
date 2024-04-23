@@ -56,9 +56,9 @@ void MarkovAlgorithm(std::string& in, const Formula* formulas, unsigned n)
     {
         std::string before = in;
         Replace(in, formulas[i]);
-        std::cout << in << std::endl;
         if (before != in)
         {
+            std::cout << in << std::endl;
             i = -1;
             continue;
         }
